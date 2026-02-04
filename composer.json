@@ -1,5 +1,5 @@
 {
-    "name": "codewithkyrian/huggingface-php",
+    "name": "codewithkyrian/huggingface",
     "description": "A collection of utilities to interact with the HuggingFace Hub from PHP",
     "type": "library",
     "require": {

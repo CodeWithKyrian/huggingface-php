@@ -1,6 +1,6 @@
 # Hugging Face PHP
 
-A comprehensive PHP client for the [Hugging Face Hub](https://huggingface.co). Access thousands of machine learning models, datasets, run inference, and more—all from your PHP application.
+A comprehensive PHP client for the [Hugging Face Hub](https://huggingface.co). Access thousands of machine learning models, datasets, run inference, and more, all from your PHP application.
 
 ```php
 use Codewithkyrian\HuggingFace\HuggingFace;
@@ -80,12 +80,12 @@ $embeddings = $hf->inference()
 Install the package via Composer:
 
 ```bash
-composer require codewithkyrian/huggingface-php
+composer require codewithkyrian/huggingface
 ```
 
 ### Requirements
 
-- PHP 8.1 or higher
+- PHP 8.2 or higher
 - A PSR-18 HTTP client (e.g., Guzzle, Symfony HttpClient)
 
 If you don't have a PSR-18 client installed, add Guzzle:

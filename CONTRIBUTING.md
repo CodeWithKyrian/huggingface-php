@@ -23,7 +23,7 @@ Thank you for your interest in contributing to the Hugging Face PHP library! Thi
 
 ### Requirements
 
-- PHP 8.1 or higher
+- PHP 8.2 or higher
 - Composer
 - A Hugging Face token (for testing authenticated features)
 
