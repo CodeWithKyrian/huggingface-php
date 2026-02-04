@@ -1,0 +1,49 @@
+{
+    "name": "codewithkyrian/huggingface-php",
+    "description": "A collection of utilities to interact with the HuggingFace Hub from PHP",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "ext-curl": "*",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.1",
+        "php-http/discovery": "^1.20"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.4.11|^7.1.5|^8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "pestphp/pest": "^2.36|^3.5",
+        "friendsofphp/php-cs-fixer": "^3.93",
+        "phpstan/phpstan": "^2.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Codewithkyrian\\HuggingFace\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Codewithkyrian\\HuggingFace\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kyrian Obikwelu",
+            "email": "koshnawaza@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": "pest --testsuite=unit,feature",
+        "test:integration": "pest --testsuite integration",
+        "cs:fix": "vendor/bin/php-cs-fixer fix",
+        "cs:check": "vendor/bin/php-cs-fixer fix --dry-run --diff",
+        "analyse": "vendor/bin/phpstan analyse -c phpstan.dist.neon"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
+    }
+}
