@@ -1,6 +1,18 @@
 {
     "name": "codewithkyrian/huggingface",
-    "description": "A collection of utilities to interact with the HuggingFace Hub from PHP",
+    "description": "Hugging Face Hub client for PHP. Manage repositories, run inference, and access thousands of models and datasets with a robust, type-safe API.",
+    "keywords": [
+        "huggingface",
+        "hub",
+        "inference",
+        "machine learning",
+        "ai",
+        "transformers",
+        "nlp",
+        "php",
+        "sdk",
+        "api"
+    ],
     "type": "library",
     "require": {
         "php": "^8.2",

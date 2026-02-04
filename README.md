@@ -9,6 +9,12 @@
 
 A comprehensive PHP client for the [Hugging Face Hub](https://huggingface.co). Access thousands of machine learning models, datasets, run inference, and more, all from your PHP application.
 
+- **Hub API**: Full CRUD support for Repositories (Models, Datasets, Spaces), Files, and Collections.
+- **Inference API**: Run inference on over 100,000+ models using Hugging Face's serverless abstraction. Automatically resolves the best provider for you.
+- **Smart Caching**: Built-in, OS-aware caching system with support for generic file caching and optimization.
+- **Type-Safe**: Fully typed DTOs for strict typing and better developer experience.
+- **Utilities**: Includes specific utilities for various tasks like token classification, zero-shot classification, and more.
+
 ```php
 use Codewithkyrian\HuggingFace\HuggingFace;
 
