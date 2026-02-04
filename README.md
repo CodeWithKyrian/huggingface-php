@@ -1,5 +1,12 @@
 # Hugging Face PHP
 
+<p>
+        <a href="https://github.com/codewithkyrian/huggingface-php/actions"><img alt="GitHub Workflow Status (main)" src="https://img.shields.io/github/actions/workflow/status/codewithkyrian/huggingface-php/tests.yml?branch=main&label=tests&style=flat-square"></a>
+        <a href="https://packagist.org/packages/codewithkyrian/huggingface"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/codewithkyrian/huggingface?style=flat-square"></a>
+        <a href="https://packagist.org/packages/codewithkyrian/huggingface"><img alt="Latest Version" src="https://img.shields.io/packagist/v/codewithkyrian/huggingface?style=flat-square"></a>
+        <a href="https://packagist.org/packages/codewithkyrian/huggingface"><img alt="License" src="https://img.shields.io/github/license/codewithkyrian/huggingface-php?style=flat-square"></a>
+    </p>
+
 A comprehensive PHP client for the [Hugging Face Hub](https://huggingface.co). Access thousands of machine learning models, datasets, run inference, and more, all from your PHP application.
 
 ```php
